@@ -1,0 +1,222 @@
+body {
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #111827,
+        #1e293b
+    );
+
+    min-height: 100vh;
+
+    color: white;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* MAIN CONTAINER */
+
+.container {
+
+    background: rgba(255,255,255,0.05);
+
+    padding: 40px;
+
+    margin-top: 40px;
+
+    border-radius: 25px;
+
+    backdrop-filter: blur(15px);
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+/* HEADING */
+
+h1 {
+
+    font-size: 3rem;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    background: linear-gradient(
+        to right,
+        #38bdf8,
+        #818cf8
+    );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+h2,
+h3,
+h5,
+label {
+
+    color: white;
+}
+
+/* TEXTAREA */
+
+textarea {
+
+    background: rgba(255,255,255,0.08) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(255,255,255,0.15) !important;
+
+    border-radius: 15px !important;
+
+    padding: 15px !important;
+
+    transition: 0.3s;
+}
+
+textarea:focus {
+
+    box-shadow: 0 0 15px #38bdf8 !important;
+
+    border-color: #38bdf8 !important;
+}
+
+/* INPUT */
+
+input {
+
+    background: rgba(255,255,255,0.08) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(255,255,255,0.15) !important;
+
+    border-radius: 12px !important;
+
+    padding: 10px !important;
+}
+
+/* SELECT DROPDOWNS */
+
+.form-select {
+
+    background-color: rgba(255,255,255,0.08) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(255,255,255,0.15) !important;
+
+    border-radius: 12px !important;
+
+    padding: 10px !important;
+
+    appearance: auto !important;
+
+    -webkit-appearance: auto !important;
+
+    -moz-appearance: auto !important;
+}
+
+/* DROPDOWN OPTIONS */
+
+option {
+
+    background: #111827;
+
+    color: white;
+}
+
+/* PLACEHOLDER */
+
+textarea::placeholder {
+
+    color: #d1d5db;
+}
+
+/* BUTTONS */
+
+.btn-success {
+
+    background: linear-gradient(
+        to right,
+        #10b981,
+        #059669
+    );
+
+    border: none;
+
+    padding: 12px 28px;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 0 0 20px #10b981;
+}
+
+.btn-danger {
+
+    border-radius: 12px;
+}
+
+.btn-primary {
+
+    border-radius: 10px;
+}
+
+/* AUDIO */
+
+audio {
+
+    width: 100%;
+}
+
+/* HISTORY CARDS */
+
+.list-group-item {
+
+    background: rgba(255,255,255,0.06);
+
+    color: white;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 18px !important;
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 0 20px rgba(56,189,248,0.3);
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #475569;
+
+    border-radius: 10px;
+}
